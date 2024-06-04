@@ -20,6 +20,11 @@
     padding: 0 40px;
   }
 }
+@media screen and (max-width: 853px) {
+  .container {
+    padding: 0 20px;
+  }
+}
 .site-header {
   background-color: rgb(31, 46, 53);
   position: sticky;
@@ -265,9 +270,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 89px;
+  gap: 100px;
+}
+.work-section .work-section-wrapper .work-cards .work-card .work-card-left {
+  width: 37%;
+}
+.work-section .work-section-wrapper .work-cards .work-card .work-card-right {
+  width: 37%;
 }
 .work-section .work-section-wrapper .work-cards .work-card .work-card-right .work-card-right-title {
+  width: 50%;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 500;
@@ -275,6 +287,7 @@
   margin-bottom: 16px;
 }
 .work-section .work-section-wrapper .work-cards .work-card .work-card-right .work-card-right-text {
+  width: 70%;
   margin-bottom: 16px;
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -282,9 +295,87 @@
   line-height: 36px;
 }
 .work-section .work-section-wrapper .work-cards .work-card .work-card-right .work-card-right-desc {
-  width: 70%;
+  width: 90%;
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 .work-card-left {
+  width: 37%;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 .work-card-right {
+  width: 37%;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 .work-card-right .work-card-right-title {
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 .work-card-right .work-card-right-text {
+  width: 70%;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.work-section .work-section-wrapper .work-cards .work-card2 .work-card-right .work-card-right-desc {
+  width: 90%;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 1450px) {
+  .work-section .work-section-wrapper .work-cards .work-card {
+    gap: 300px;
+  }
+}
+@media screen and (max-width: 1356px) {
+  .work-section .work-section-wrapper .work-cards .work-card {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .work-section .work-section-wrapper .work-card2 {
+    flex-direction: column;
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 1061px) {
+  .work-section {
+    padding: 50px 0 70px 0;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card .work-card-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card .work-card-left img {
+    width: 200%;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card .work-card-right {
+    width: 100%;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card2 .work-card-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card2 .work-card-left img {
+    width: 200%;
+  }
+  .work-section .work-section-wrapper .work-cards .work-card2 .work-card-right {
+    width: 100%;
+  }
 }
